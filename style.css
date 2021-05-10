@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+.dark-body {
+    background-color: rgb(29, 29, 29);
+}
+.dark-body p {
+    color: rgb(206, 206, 206)
+}
+
 .box1 {
     background-color: rgb(233, 233, 233);
     display: block;
@@ -8,9 +15,28 @@
     margin: 200px auto 0 auto;
     border-radius: 6px;
     transition: 150ms ease-in-out;
+    text-decoration: none;
+}
+.box3 {
+    background-color: rgb(48, 48, 48);
+    display: block;
+    max-width: 500px;
+    padding: 20px;
+    margin: 200px auto 0 auto;
+    border-radius: 6px;
+    transition: 150ms ease-in-out;
+    text-decoration: none;
 }
 .box2 {
     background-color: rgb(233, 233, 233);
+    max-width: 500px;
+    padding: 20px;
+    margin: 200px auto 0 auto;
+    border-radius: 6px;
+    transition: 150ms ease-in-out;
+}
+.box4 {
+    background-color: rgb(48, 48, 48);
     max-width: 500px;
     padding: 20px;
     margin: 200px auto 0 auto;
@@ -22,9 +48,20 @@
     box-shadow: 0px 10px 30px -2px rgba(43, 43, 43, 0.171);
     transform: translateY(-6px)
 }
+.box3:hover {
+    box-shadow: 0px 10px 30px -2px rgba(0, 0, 0, 0.726);
+    transform: translateY(-6px)
+}
 
 h1 {
     color: rgb(39, 39, 39);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.box3 h1,.box4 h1 {
+    color: rgb(236, 236, 236);
     font-family: Montserrat;
     font-size: 2rem;
     font-weight: 700;
@@ -39,11 +76,17 @@ p {
     margin-top: 30px;
 }
 
-a {
+.a-light, .a-dark {
     text-decoration: none;
-    color: rgb(39, 39, 39);
 }
-a:hover {
+.a-dark {
+    color: rgb(206, 206, 206);
+}
+.a-light:hover {
     text-decoration: none;
     color: rgb(78, 78, 78);
+}
+.a-dark:hover {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
 }
