@@ -82,6 +82,9 @@ p {
 .a-dark {
     color: rgb(206, 206, 206);
 }
+.a-light {
+    color: rgb(78, 78, 78);
+}
 .a-light:hover {
     text-decoration: none;
     color: rgb(78, 78, 78);
